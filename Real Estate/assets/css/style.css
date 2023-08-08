@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: verdana;
+    user-select: none;
+}
+        /**** Header & Banner ****/
+.head-wrap{
+    width: 100%;
+    height: fit-content;
+    background: url(../img/banner.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar{
+    padding: 15px 0 !important;
+    margin-bottom: 100px;
+}
+.navbar .nav-item{
+    padding: 0 12px;
+    margin: 5px 0;
+}
+.navbar .nav-link{
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar .nav-link:hover, .nav-link.active{
+    color: #8ed500 !important;
+    transition: 0.3s;
+}
+.login{
+    padding: 10px 15px 11px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: #8ed500;
+    color: #fff;
+}
+.login:hover{
+    background: #fff;
+    color: #8ed500;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.dropdown-menu-dark{
+    border: none !important;
+    background: none !important;
+}
+.dropdown-menu-dark .dropdown-item{
+    color: #fff !important;
+}
+.dropdown-menu-dark .dropdown-item:hover{
+    color: #8ed500 !important;
+    transition: 0.2s;
+}
+.banner{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.banner h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner h1 b{
+    color: #8ed500;
+}
+.banner p{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 50px 160px 160px 160px;
+}
+        /**** Searchbox ****/
+.searchbox{
+    width: 85%;
+    margin: -65px auto 110px auto;
+    z-index: 99;
+}
+.input{
+    width: 70%;
+    height: fit-content;
+    padding: 10px;
+    border: 20px solid #e1e1e1;
+    border-radius: 10px 0 0 10px;
+    border-right: none !important;
+    color: #1c1c1c;
+}
+.input::placeholder{
+    color: #1c1c1c;
+}
+.input:focus{
+    outline: none;
+}
+.button{
+    width: 25%;
+    height: fit-content;
+    padding: 10px;
+    border: 20px solid #e1e1e1;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    background: #8ed500;
+    color: #fff;
+    text-transform: uppercase;
+}
+        /**** Highlight Box Section ****/
+.highlight{
+    width: 100%;
+    margin-bottom: 185px;
+}
+.highlight .box-wrap{
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.highlight a{
+    text-decoration: none;
+}
+.highlight .box{
+    height: 311px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+}
+.box-bg1{
+    background: url(../img/rent.jpg) no-repeat center;
+}
+.box-bg2{
+    background: url(../img/buy.jpg) no-repeat center;
+}
+.box-bg3{
+    background: url(../img/sell.jpg) no-repeat center;
+}
+.highlight .box:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.highlight h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 50%;
+}
+        /**** Featured Exclusive Section ****/
+.exclusive{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.exclusive h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #8ed500;
+    text-transform: uppercase;
+}
+.exclusive h6{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin-bottom: 85px;
+}
+.carousel-indicators .active{
+    background-color: #8ed500 !important;
+}
+        /**** Estate Agent Profile Section ****/
+.agent{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 165px;
+}
+.agent h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #8ed500;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+.agent .a-box{
+    width: 200px;
+    margin: 0 auto 20px auto;
+    padding: 1px;
+}
+.agent h6{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8ed500;
+    margin: 30px 0;
+}
+.agent a{
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+}
+.agent a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.owl-nav{
+    display: block !important;
+}
+.owl-nav button.owl-next span, .owl-nav button.owl-prev span{
+    font-size: 70px;
+    color: #1c1c1c !important;
+    padding: 0 60px;
+}
+.owl-dots{
+    display: none;
+}
+        /**** Footer Section ****/
+.footer{
+    width: 100%;
+    background: #393938;
+    color: #fff;
+}
+.footer .info a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.footer .foot-logo{
+    margin: 40px 0;
+}
+.footer .foot-logo:hover{
+    text-decoration: none;
+}
+.footer .info p{
+    font-size: 14px;
+    width: 270px;
+    margin-bottom: 30px;
+}
+.footer h6{
+    font-size: 24px;
+    margin: 40px 0;
+}
+.footer i{
+    margin-right: 10px;
+}
+.footer .policy{
+    border-top: 1px solid #fff;
+    padding: 20px 0;
+    font-size: 15px;
+}
+.footer .policy p{
+    font-size: 15px;
+    margin: 0;
+}
+.footer .align{
+    width: 100%;
+    text-align: right;
+}
+.footer .policy a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer .policy a:hover{
+    text-decoration: underline;
+}
+.content{
+    height: 1000px;
+      font-family: 'Questrial';
+      line-height: 1.5;
+      letter-spacing: 3px;
+      font-size: 20px;
+      text-decoration: underline;
+      text-align: center;
+      margin-top: 30px;
+  }
+.go-top {
+    position:fixed;
+    bottom: 20%;
+    right: 5%;
+    padding:20px;
+    display:none;
+    cursor: pointer;
+      -webkit-font-smoothing: antialiased;
+  }
+.go-top:after {
+    font-family: FontAwesome;
+    content: "\f106";
+    background-color: #000;
+    padding: 3px 15px 8px 15px;
+    color: #fff;
+    position: absolute; 
+    bottom:10px;
+    font-size: 28px;
+    border-radius: 50%;
+  }
+.go-top:hover {
+    transition: all .4s linear;
+    transform: scale(1.1);
+  }
+        /**** Media Query ****/
+@media (max-width: 768px){
+    .banner p{
+        padding: 50px 100px 160px 100px;
+    }
+    .searchbox{
+        margin: -55px auto 110px auto;
+    }
+    .input{
+        border: 15px solid #e1e1e1;
+        border-right: none !important;
+    }
+    .button{
+        border: 15px solid #e1e1e1;
+        border-left: none !important;
+    }
+    .highlight .box-wrap{
+        width: 255px;
+    }
+    .highlight .box{
+        height: 260px;
+    }
+}
+
+@media (max-width:575px){
+    .navbar{
+        margin-bottom: 50px;
+    }
+    .banner p{
+        padding: 50px 50px 160px 50px;
+    }
+    .searchbox{
+        margin: -45px auto 110px auto;
+    }
+    .button span{
+        display: none;
+    }
+    .input{
+        padding: 5px;
+        border: 12px solid #e1e1e1;
+    }
+    .button{
+        padding: 5px;
+        border: 12px solid #e1e1e1;
+    }
+    .footer .policy{
+        width: 100%;
+        text-align: center;
+    }
+    .footer .policy p{
+        margin: 0 auto 15px auto;
+    }
+    .policy .align{
+        width: 100%;
+        text-align: center;
+    }
+    .go-top{
+        right: 10%;
+    }
+}
